@@ -1,0 +1,13 @@
+﻿<Properties StartupItem="Snake/Snake.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Snake/Program.cs">
+    <Files>
+      <File FileName="Snake/Program.cs" Line="23" Column="43" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Snake PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
