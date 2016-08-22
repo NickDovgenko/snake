@@ -8,12 +8,9 @@ namespace Snake
 		public static void Main(string[] args)
 		{
 
-			Point p1 = new Point (1, 3, '*');
-			p1.Draw();
-
-			Point p2 = new Point(4, 5, '#');
-			p2.Draw();
-
+			Point p = new Point (1, 3, '*');
+			Snake snake = new Snake(p, 4, Direction.RIGHT);
+			snake.Draw();
 
 			HorisontalLine upLine = new HorisontalLine(0, Console.BufferWidth-1, 0, '+');
 			upLine.Draw();
