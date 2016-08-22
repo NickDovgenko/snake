@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading;
 
 namespace Snake
 {
@@ -11,6 +12,37 @@ namespace Snake
 			Point p = new Point (1, 3, '*');
 			Snake snake = new Snake(p, 4, Direction.RIGHT);
 			snake.Draw();
+			snake.Move();
+			Thread.Sleep(300);
+			Thread.Sleep(300);
+			Thread.Sleep(300);
+			Thread.Sleep(300);
+			Thread.Sleep(300);
+			Thread.Sleep(300);
+			Thread.Sleep(300);
+			Thread.Sleep(300);
+			Thread.Sleep(300);
+			Thread.Sleep(300);
+			Thread.Sleep(300);
+			Thread.Sleep(300);
+			Thread.Sleep(300);
+			Thread.Sleep(300);
+			Thread.Sleep(300);
+			Thread.Sleep(300);
+			Thread.Sleep(300);
+			Thread.Sleep(300);
+			Thread.Sleep(300);
+			Thread.Sleep(300);
+			Thread.Sleep(300);
+			Thread.Sleep(300);
+			Thread.Sleep(300);
+			Thread.Sleep(300);
+			Thread.Sleep(300);
+			Thread.Sleep(300);
+			Thread.Sleep(300);
+			Thread.Sleep(300);
+
+
 
 			HorisontalLine upLine = new HorisontalLine(0, Console.BufferWidth-1, 0, '+');
 			upLine.Draw();

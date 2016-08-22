@@ -1,12 +1,12 @@
 ﻿<Properties StartupItem="Snake/Snake.csproj">
   <MonoDevelop.Ide.Workbench ActiveDocument="Snake/Snake.cs">
     <Files>
-      <File FileName="Snake/Program.cs" Line="12" Column="29" />
-      <File FileName="Snake/Point.cs" Line="9" Column="20" />
+      <File FileName="Snake/Program.cs" Line="43" Column="22" />
+      <File FileName="Snake/Point.cs" Line="51" Column="1" />
       <File FileName="Snake/HorisontalLine.cs" Line="10" Column="4" />
       <File FileName="Snake/VerticalLine.cs" Line="10" Column="4" />
-      <File FileName="Snake/Figure.cs" Line="11" Column="1" />
-      <File FileName="Snake/Snake.cs" Line="12" Column="5" />
+      <File FileName="Snake/Figure.cs" Line="13" Column="1" />
+      <File FileName="Snake/Snake.cs" Line="17" Column="16" />
       <File FileName="Snake/Direction.cs" Line="5" Column="7" />
     </Files>
   </MonoDevelop.Ide.Workbench>
