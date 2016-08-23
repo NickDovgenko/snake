@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;   
 using System.Linq;
-using System.Text;
-using System.Threading;
 
 namespace Snake
 {
@@ -12,9 +10,9 @@ namespace Snake
 		Direction direction;
 
 
-		public Snake(Point tail, int lenght, Direction direction)
+		public Snake(Point tail, int lenght, Direction _direction)
 		{
-			direction = direction;
+			direction = _direction;
 			pList = new List<Point>();
 			for (int i = 0; i < lenght; i++)
 			{
