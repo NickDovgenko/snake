@@ -9,35 +9,31 @@ namespace Snake
 	{
 		public static void Main(string[] args)
 		{
-
-			Point p = new Point (1, 3, '*');
-			Snake snake = new Snake(p, 4, Direction.RIGHT);
-			snake.Draw();
-			snake.Move();
-			Thread.Sleep(300);
-			snake.Move();
-			Thread.Sleep(300);
-			snake.Move();
-			Thread.Sleep(300);
-			snake.Move();
-			Thread.Sleep(300);
-			snake.Move();
-			Thread.Sleep(300);
-			snake.Move();
-			Thread.Sleep(300);
-			snake.Move();
-
-			HorisontalLine upLine = new HorisontalLine(0, Console.BufferWidth-1, 0, '+');
+			HorisontalLine upLine = new HorisontalLine(0, Console.BufferWidth - 1, 0, '+');
 			upLine.Draw();
 
-			HorisontalLine downLine = new HorisontalLine(0, Console.BufferWidth - 1, Console.BufferHeight-1, '+');
+			HorisontalLine downLine = new HorisontalLine(0, Console.BufferWidth - 1, Console.BufferHeight - 1, '+');
 			downLine.Draw();
 
-			VerticalLine leftLine = new VerticalLine(0, Console.BufferHeight-1, 0, '+');
+			VerticalLine leftLine = new VerticalLine(0, Console.BufferHeight - 1, 0, '+');
 			leftLine.Draw();
 
 			VerticalLine rightLine = new VerticalLine(0, Console.BufferHeight - 1, Console.BufferWidth - 1, '+');
 			rightLine.Draw();
+
+			Point p = new Point (1, 3, '*');
+			Snake snake = new Snake(p, 4, Direction.RIGHT);
+			snake.Draw();
+			while (true)
+			{
+				if (Console.KeyAvailable)
+				{
+					ConsoleKeyInfo key = Console.ReadKey();
+					snake.handleKey(key.Key);
+				}
+				Thread.Sleep(100);
+				snake.Move();
+			}
 
 		}
 
