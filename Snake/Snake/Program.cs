@@ -9,6 +9,9 @@ namespace Snake
 	{
 		public static void Main(string[] args)
 		{
+			VerticalLine v1 = new VerticalLine(0, 10, 5, '%');
+			v1.Draw();
+
 			HorisontalLine upLine = new HorisontalLine(0, Console.BufferWidth - 1, 0, '+');
 			upLine.Draw();
 
